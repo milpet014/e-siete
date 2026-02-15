@@ -1,0 +1,28 @@
+site_name: Počítačové siete
+site_url: http://localhost:8000/
+
+theme:
+  name: material
+  language: sk
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.sections
+    - content.code.copy
+    - search.suggest
+    - search.highlight
+
+dev_addr: 0.0.0.0:8000
+
+nav:
+  - Úvod: index.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - toc:
+      permalink: true
+
+plugins:
+  - search

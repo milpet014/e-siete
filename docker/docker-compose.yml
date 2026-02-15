@@ -1,0 +1,17 @@
+services:
+    e-siete:
+        image: python:3.12-slim
+        container_name: e-siete
+        working_dir: /data
+        volumes:
+            - ../data:/data
+        command: sh -lc "pip install -r requirements.txt && mkdocs serve"
+        restart: unless-stopped
+        networks:
+            - proxy
+        ports:
+            - "8102:8000"
+        
+networks:
+    proxy:
+        external: true
