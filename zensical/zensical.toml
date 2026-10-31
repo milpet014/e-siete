@@ -109,7 +109,7 @@ Copyright &copy; 2026 The authors
 # Read more:
 # - https://zensical.org/docs/setup/language/
 #
-language = "en"
+language = "sk"
 
 # Zensical provides a number of feature toggles that change the behavior
 # of the documentation site.
@@ -315,10 +315,10 @@ video_controls = true
 video_autoplay = false
 video_loop = false
 
-[project.markdown_extensions]
-attr_list = {}
-md_in_html = {}
-pymdownx.blocks.caption = {}
+#[project.markdown_extensions]
+#attr_list = {}
+#md_in_html = {}
+#pymdownx.blocks.caption = {}
 
 [project.plugins.glightbox]
 enabled = true
