@@ -6,6 +6,7 @@
 #
 # ============================================================================
 
+
 [project]
 
 # The site_name is shown in the page header and the browser window title
@@ -303,3 +304,23 @@ toggle.name = "Switch to light mode"
 #[[project.extra.social]]
 #icon = "fontawesome/brands/github"
 #link = "https://github.com/user/repo"
+
+
+[project.plugins.mkdocs-video]
+enabled = true
+mark = "type:video"
+is_video = true
+video_type = "mp4"
+video_controls = true
+video_autoplay = false
+video_loop = false
+
+[project.markdown_extensions]
+attr_list = {}
+md_in_html = {}
+pymdownx.blocks.caption = {}
+
+[project.plugins.glightbox]
+enabled = true
+auto = true
+auto_caption = true
