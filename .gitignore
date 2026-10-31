@@ -1,0 +1,12 @@
+# Persistentne data kontajnerov
+/mariaDB/data/
+/nextcloud/data/
+/zensical/data/
+
+# Citlive konfiguracie
+.env
+**/.env
+
+# Python a Zensical cache
+__pycache__/
+.cache/
