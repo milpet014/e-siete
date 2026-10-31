@@ -16,6 +16,8 @@ services:
       MYSQL_USER: nextcloud
       MYSQL_PASSWORD: ${MYSQL_PASSWORD:?required}
 
+      CLI_OPTS: "--innodb-log-file-size=256M"
+
     volumes:
       - ./data:/config
 
