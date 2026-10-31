@@ -1,12 +1,32 @@
 # Persistentne data kontajnerov
 /mariaDB/data/
+
 /nextcloud/data/
-/zensical/data/
+/nextcloud/storage/
+
+/zensical/site/
 
 # Citlive konfiguracie
 .env
 **/.env
+.env.*
+
+#povoli example
+!.env.example 
 
 # Python a Zensical cache
 __pycache__/
+*.py[cod]
+.venv/
 .cache/
+
+# Docasne subory a zalohy editorov
+
+*.swp
+*.swo
+*~
+*.bak
+
+# Systemove subory
+.DS_Store
+Thumbs.db
