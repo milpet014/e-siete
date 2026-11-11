@@ -1,8 +1,4 @@
 # Persistentne data kontajnerov
-/mariaDB/data/
-
-/nextcloud/data/
-/nextcloud/storage/
 
 /zensical/site/
 
